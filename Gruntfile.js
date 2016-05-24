@@ -39,7 +39,7 @@ module.exports = function(grunt) {
       ],
       runtimeCaching: [{
         // See https://github.com/GoogleChrome/sw-toolbox#methods
-        urlPattern: /ionicons/,
+        urlPattern: "/ionicons/",
         handler: "cacheFirst",
         // See https://github.com/GoogleChrome/sw-toolbox#options
         options: {
